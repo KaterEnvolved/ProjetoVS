@@ -24,7 +24,7 @@ pyautogui.press("enter")
 
 time.sleep(5)
 
-pyautogui.click(x=737, y=371)
+pyautogui.click(x=737, y=371) #a posição do pyautogui.click é ajustável
 pyautogui.write("jornadapythonteste@gmai.com")
 pyautogui.press("tab")
 pyautogui.write("123456789.")
